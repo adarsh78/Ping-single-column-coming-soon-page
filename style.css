@@ -21,12 +21,12 @@ body{
 }
 
 .main{
-    width: 24rem;
+    width: 100%;
     /* background-color: green; */
 }
 
 .logo{
-    background: url(images/logo.svg) no-repeat;
+    background: url(https://user-images.githubusercontent.com/64201509/227503745-c7f25084-8d83-40e4-8a76-cb1327ca7f7d.svg) no-repeat;
     background-size: contain;
     margin: 7rem auto;
     width: 5rem;
@@ -53,8 +53,13 @@ body{
     margin: 1.7rem 0 3rem 0;
 }
 
+.input-email{
+   width: 90%;
+   margin: 0 auto;
+}
+
 .input-email input{
-    width: 24rem;
+    width: 100%;
     height: 3.5rem;
     border-radius: 10rem;
     border: 1px solid hsl(0, 0%, 59%);
@@ -74,7 +79,7 @@ body{
 }
 
 .button{
-    width: 24rem;
+    width: 90%;
     height: 3.5rem;
     border-radius: 10rem;
     border: none;
@@ -96,11 +101,11 @@ body{
 }
 
 .illustration-dashboard{
-    background: url(images/illustration-dashboard.png) no-repeat;
+    background: url(https://user-images.githubusercontent.com/64201509/227503938-15e0d3f9-1d10-44c7-888b-986c149e9d2a.png) no-repeat;
     background-size: contain;
     height: 30rem;
-    width: 112%;
-    margin: 5rem -1.5rem;
+    width: 100%;
+    margin: 5rem auto;
 }
 
 .social-media{
@@ -144,7 +149,7 @@ body{
     border: none;
     font-style: italic;
     font-size: 0.8rem;
-    margin: 0.5rem 7rem;
+    margin: 0.3rem 1rem;
 }
 
 .error{
@@ -157,7 +162,7 @@ body{
     border-radius: 10rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 
     .main{
         width: 28rem;
@@ -182,13 +187,13 @@ body{
     }
 
     .input-email input{
-        width: 18rem;
+        width: 20rem;
         height: 2.4rem;
         font-size: 0.8rem;
     }
 
     .button{
-        width: 8.3rem;
+        width: 8.5rem;
         height: 2.4rem;
     }
 
@@ -217,6 +222,5 @@ body{
     
     .input-email .error{
         font-size: 0.7rem;
-        margin: 0.5rem 0 0 1.5rem;
     }
   }
